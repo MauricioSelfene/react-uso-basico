@@ -11,11 +11,11 @@ const Formulario = () => {
         e.preventDefault()
 
         if (!fruta.trim()) {
-            console.log('Esta vacio fruta')
+            console.log('Esta vacio fruta, debe llenar este campo')
             return
         }
         if (!descripcion.trim()) {
-            console.log('Esta vacio descripcion')
+            console.log('Esta vacio descripcion, debe llenar este campo')
             return
         }
 
